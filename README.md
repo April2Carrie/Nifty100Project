@@ -25,7 +25,7 @@ Include results for:
 
 ## data_use
 
-Include all the [data](https://github.com/April2Carrie/Nifty100Project) after preprocessing.
+Include all the [data](https://github.com/April2Carrie/Nifty100Project/tree/main/data_use) after preprocessing.
 
 ## Special Thanks
 
