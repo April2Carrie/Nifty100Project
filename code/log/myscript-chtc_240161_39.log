@@ -1,0 +1,39 @@
+000 (240161.039.000) 2022-12-05 18:34:55 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_6018_6d09>
+...
+040 (240161.039.000) 2022-12-05 18:36:31 Entered queue to transfer input files
+	Transferring to host: <128.105.69.30:9618?addrs=128.105.69.30-9618+[2607-f388-2200-100-1e6a-7aff-fe26-c7d3]-9618&alias=e2352.chtc.wisc.edu&noUDP&sock=slot1_9_434_8acb_89328>
+...
+040 (240161.039.000) 2022-12-05 18:36:41 Started transferring input files
+	Seconds spent in queue: 10
+...
+040 (240161.039.000) 2022-12-05 18:36:44 Finished transferring input files
+...
+001 (240161.039.000) 2022-12-05 18:36:45 Job executing on host: <128.105.69.30:9618?addrs=128.105.69.30-9618+[2607-f388-2200-100-1e6a-7aff-fe26-c7d3]-9618&alias=e2352.chtc.wisc.edu&noUDP&sock=startd_7230_c1d2>
+...
+006 (240161.039.000) 2022-12-05 18:36:51 Image size of job updated: 60888
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (240161.039.000) 2022-12-05 18:36:52 Started transferring output files
+	Seconds spent in queue: 21
+...
+040 (240161.039.000) 2022-12-05 18:36:52 Finished transferring output files
+...
+005 (240161.039.000) 2022-12-05 18:36:52 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	14848  -  Run Bytes Sent By Job
+	39124644  -  Run Bytes Received By Job
+	14848  -  Total Bytes Sent By Job
+	39124644  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   256427  2097152   2322346 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        0     2048      2048 
+
+	Job terminated of its own accord at 2022-12-06T00:36:51Z with exit-code 0.
+...

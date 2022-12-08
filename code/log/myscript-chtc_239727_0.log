@@ -1,0 +1,17 @@
+000 (239727.000.000) 2022-12-05 00:07:15 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_6018_6d09>
+...
+040 (239727.000.000) 2022-12-05 00:08:36 Started transferring input files
+	Transferring to host: <128.105.68.21:9618?addrs=128.105.68.21-9618+[2607-f388-2200-100-be97-e1ff-fe9e-22be]-9618&alias=oconnor2005.chtc.wisc.edu&noUDP&sock=backfill8_103241_5fbf_148250>
+...
+007 (239727.000.000) 2022-12-05 00:08:39 Shadow exception!
+	Error from backfill8@oconnor2005.chtc.wisc.edu: SHADOW at 128.104.100.148 failed to send file(s) to <128.105.68.21:43555>: |Error: reading from file /home/groups/STAT_DSCP/group8/1ACC_minute_data_with_indicators.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <128.104.100.148:9618>
+	0  -  Run Bytes Sent By Job
+	42250064  -  Run Bytes Received By Job
+...
+012 (239727.000.000) 2022-12-05 00:08:39 Job was held.
+	Transfer input files failure at access point learn while sending files to execution point backfill8@oconnor2005.chtc.wisc.edu. Details: reading from file /home/groups/STAT_DSCP/group8/1ACC_minute_data_with_indicators.csv: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+009 (239727.000.000) 2022-12-05 00:16:06 Job was aborted.
+	via condor_rm (by user yge43)
+...

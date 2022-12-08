@@ -1,0 +1,18 @@
+null device 
+          1 
+Series: dat 
+ARIMA(0,1,1) with drift 
+
+Coefficients:
+          ma1   drift
+      -0.1222  1.1641
+s.e.   0.0251  1.2126
+
+sigma^2 = 5383:  log likelihood = -10439.19
+AIC=20884.38   AICc=20884.39   BIC=20902.21
+
+Training set error measures:
+                    ME     RMSE      MAE         MPE     MAPE     MASE
+Training set 0.9502771 73.30508 51.62166 0.001937449 1.172898 0.941678
+                   ACF1
+Training set 0.05128302

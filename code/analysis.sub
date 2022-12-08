@@ -1,0 +1,29 @@
+# Before running this with "condor_submit myscript.sub", the
+# directories log, error, and output must exist.
+
+universe = vanilla
+log    =    log/myscript-chtc_$(Cluster)_$(Process).log
+error  =  error/myscript-chtc_$(Cluster)_$(Process).err
+output = output/myscript-chtc_$(Cluster)_$(Process).out
+
++is_resumable = true
+
+executable = ./analysis.sh
+
+# The two arguments below are:
+
+# The two arguments below are:
+# - template spectrum
+# - data directory
+arguments = $(file)
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+transfer_input_files = http://proxy.chtc.wisc.edu/SQUID/chtc/R402.tar.gz, packages2.tar.gz,  arima.R, /home/groups/STAT_DSCP/group8/data_use/$(file)
+
+request_cpus = 1
+request_memory = 2GB
+request_disk = 2GB
+
+queue file from filenames

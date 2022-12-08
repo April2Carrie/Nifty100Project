@@ -1,0 +1,64 @@
+000 (239718.000.000) 2022-12-04 23:35:52 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_6018_6d09>
+...
+040 (239718.000.000) 2022-12-04 23:35:57 Started transferring input files
+	Transferring to host: <128.105.69.105:9618?addrs=128.105.69.105-9618+[2607-f388-2200-100-1270-fdff-fe56-460c]-9618&alias=e2488.chtc.wisc.edu&noUDP&sock=build1_1_1306608_4986_31890>
+...
+007 (239718.000.000) 2022-12-04 23:35:57 Shadow exception!
+	Error from build1_1@e2488.chtc.wisc.edu: FILETRANSFER:1:non-zero exit (1) from /usr/libexec/condor/curl_plugin. |Error: The requested URL returned error: 404 Not Found using http_proxy=http://squid-cs-2360.chtc.wisc.edu:3128 ( URL file = http://proxy.chtc.wisc.edu/SQUID/chtc/el8/R402.tar.gz )|
+	0  -  Run Bytes Sent By Job
+	53  -  Run Bytes Received By Job
+...
+012 (239718.000.000) 2022-12-04 23:35:57 Job was held.
+	Transfer input files failure at execution point build1_1@e2488.chtc.wisc.edu using protocol http. Details: Error from build1_1@e2488.chtc.wisc.edu: FILETRANSFER:1:non-zero exit (1) from /usr/libexec/condor/curl_plugin. |Error: The requested URL returned error: 404 Not Found using http_proxy=http://squid-cs-2360.chtc.wisc.edu:3128 ( URL file = http://proxy.chtc.wisc.edu/SQUID/chtc/el8/R402.tar.gz )|
+	Code 13 Subcode 256
+...
+000 (239719.000.000) 2022-12-04 23:36:40 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_6018_6d09>
+...
+040 (239719.000.000) 2022-12-04 23:36:43 Started transferring input files
+	Transferring to host: <128.105.69.105:9618?addrs=128.105.69.105-9618+[2607-f388-2200-100-1270-fdff-fe56-460c]-9618&alias=e2488.chtc.wisc.edu&noUDP&sock=build1_1_1306608_4986_31909>
+...
+040 (239719.000.000) 2022-12-04 23:36:44 Finished transferring input files
+...
+001 (239719.000.000) 2022-12-04 23:36:45 Job executing on host: <128.105.69.105:9618?addrs=128.105.69.105-9618+[2607-f388-2200-100-1270-fdff-fe56-460c]-9618&alias=e2488.chtc.wisc.edu&noUDP&sock=startd_1306553_4316>
+...
+006 (239719.000.000) 2022-12-04 23:36:49 Image size of job updated: 1648
+	2  -  MemoryUsage of job (MB)
+	1648  -  ResidentSetSize of job (KB)
+...
+006 (239719.000.000) 2022-12-04 23:36:53 Image size of job updated: 269760
+	3  -  MemoryUsage of job (MB)
+	2084  -  ResidentSetSize of job (KB)
+...
+006 (239719.000.000) 2022-12-04 23:41:53 Image size of job updated: 1282936
+	304  -  MemoryUsage of job (MB)
+	311044  -  ResidentSetSize of job (KB)
+...
+006 (239719.000.000) 2022-12-04 23:46:54 Image size of job updated: 1435796
+	309  -  MemoryUsage of job (MB)
+	316376  -  ResidentSetSize of job (KB)
+...
+040 (239719.000.000) 2022-12-04 23:47:35 Started transferring output files
+...
+040 (239719.000.000) 2022-12-04 23:47:36 Finished transferring output files
+...
+005 (239719.000.000) 2022-12-04 23:47:37 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:50, Sys 0 00:00:34  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:50, Sys 0 00:00:34  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	42252188  -  Run Bytes Sent By Job
+	53  -  Run Bytes Received By Job
+	42252188  -  Total Bytes Sent By Job
+	53  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   283798  2097152   2917996 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      309     4096      4096 
+
+	Job terminated of its own accord at 2022-12-05T05:36:49Z with signal 15.
+...
+009 (239718.000.000) 2022-12-05 00:07:02 Job was aborted.
+	via condor_rm (by user yge43)
+...

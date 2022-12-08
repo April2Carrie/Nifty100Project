@@ -1,0 +1,18 @@
+null device 
+          1 
+Series: dat 
+ARIMA(0,1,2) 
+
+Coefficients:
+          ma1     ma2
+      -0.1466  0.0408
+s.e.   0.0274  0.0323
+
+sigma^2 = 42.76:  log likelihood = -6117.27
+AIC=12240.53   AICc=12240.54   BIC=12258.36
+
+Training set error measures:
+                   ME     RMSE      MAE         MPE     MAPE      MASE
+Training set 0.139258 6.533494 4.336153 -0.02349336 2.287449 0.9290543
+                   ACF1
+Training set 0.02608233
