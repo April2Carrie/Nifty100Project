@@ -29,4 +29,4 @@ Include all the [data](https://github.com/April2Carrie/Nifty100Project/tree/main
 
 ## Special Thanks
 
-A special thanks for our dear advisor John who helped us with unzipping the large dataset and the installation of R packages "forecast".
+A special thanks for our dear advisor John who helped us with unzipping the large dataset and the installation of R package "forecast".
